@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Girlfriend Day</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Baloo 2', cursive;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="decor-top"></div>
+  <div class="container" id="page1">
+    <img src="img/cat.jpg" class="img-center" />
+    <h1>HAPPY NATIONAL <br/>GIRLFRIEND DAY</h1>
+    <p>(1 August 2025)</p>
+    <p>Click the next button!! (づ｡◕‿‿◕｡)づ❤️</p>
+    <button onclick="nextPage(2)">Next!! ~w~</button>
+  </div>
+
+  <div class="container hidden" id="page2">
+    <img src="img/envelope.jpg" class="img-center" />
+    <p>Do you want to open it?<br/>ヽ( ￣д￣;)ノ</p>
+    <button onclick="nextPage(3)">Open it</button>
+    <button onclick="nextPage(4)">No ty</button>
+  </div>
+
+  <div class="container hidden" id="page3">
+    <img src="img/love.jpg" class="img-center" />
+    <h2>To my love (^o^)</h2>
+    <p class="text">
+      You're the best thing that life has given me so far and I know nothing can take your place in my heart. The love I have for you is pure and eternal! You bring so much joy into my life that it's hard for me to imagine a life without you.<br/><br/>
+      Since I met you, it's like paradise. I love you not only for who you are, but for who I am with you. You've made me a better person and always believed in me. I think I fell in love with you even before I met you.<br/><br/>
+      Life has challenges, but with you, I can take on anything. I love you for all that you are, all that you have been, and all you're yet to be. If I know what love is, it's because of you!<br/><br/>
+      I LOVE YOU SO MUCH, BABEE! HAPPY GIRLFRIEND'S DAY!
+    </p>
+    <button onclick="nextPage(1)">Start Over ❤️</button>
+  </div>
+
+  <div class="container hidden" id="page4">
+    <img src="img/sad.jpg" class="img-center" />
+    <p>Awh... Let's try again, Please..? ><</p>
+    <button onclick="nextPage(2)">Again..?</button>
+  </div>
+
+  <script src="script.js"></script>
+  <div class="decor-bottom"></div>
+</body>
+</html>
